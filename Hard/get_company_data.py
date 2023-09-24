@@ -6,7 +6,6 @@ import requests
 
 def get_company_data(company_name):
     try:
-        # Replace 'https://api.example.com/' with the actual API endpoint
         response = requests.get(f'https://api.example.com/companies/{company_name}')
         response.raise_for_status()
         return response.json()
