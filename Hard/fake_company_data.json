@@ -1,0 +1,42 @@
+{
+  "company_1": {
+      "name": "ABC Inc.",
+      "revenue": 1000000,
+      "employees": 50,
+      "industry": "Technology",
+      "location": "New York",
+      "confidence_score": 0.8,
+      "leadership": {
+          "ceo": "John Doe",
+          "cto": "Jane Smith"
+      },
+      "products": [
+          {
+              "name": "Product A",
+              "category": "Software"
+          },
+          {
+              "name": "Product B",
+              "category": "Hardware"
+          }
+      ]
+  },
+  "company_2": {
+      "name": "XYZ Ltd.",
+      "revenue": 500000,
+      "employees": 20,
+      "industry": "Finance",
+      "location": "London",
+      "confidence_score": 0.9,
+      "leadership": {
+          "ceo": "Alice Johnson",
+          "cfo": "Bob Williams"
+      },
+      "products": [
+          {
+              "name": "Product X",
+              "category": "Finance Software"
+          }
+      ]
+  }
+}
