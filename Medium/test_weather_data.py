@@ -41,3 +41,6 @@ class TestGetWeatherData(unittest.TestCase):
         mock_get.return_value.status_code = 404
         with self.assertRaises(Exception):
             analyze_weather('city')
+
+if __name__ == '__main__':
+    unittest.main()

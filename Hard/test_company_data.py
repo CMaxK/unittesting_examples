@@ -29,6 +29,8 @@ class TestMyModule(unittest.TestCase):
         self.assertIn("confidence_score", company_data['company_2'])
         self.assertIn("leadership", company_data['company_2'])
         self.assertIn("products", company_data['company_2'])
+        #uncomment below test to see how test fails
+        #self.assertIn("dogs", company_data['company_2'])
 
         # Check confidence score for company_2
         confidence_score = company_data['company_2']["confidence_score"]
